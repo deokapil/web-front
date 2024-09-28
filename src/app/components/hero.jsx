@@ -40,14 +40,14 @@ const sliderVariants = {
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-hero bg-cover bg-top bg-no-repeat h-screen-minus-100">
+    <section className="bg-gradient-hero bg-cover bg-top bg-no-repeat h-screen-minus-100 container">
       <div className="h-[100%] flex flex-dir-col justify-center items-center gap-10 w-[50%]">
         <motion.div initial="initial" animate="animate" variants={textVariants}>
           <motion.h2
             variants={textVariants}
             className="text-4xl font-bold text-purple-400 mb-8"
           >
-            Welcome to SEPL
+            Welcome to Sabhiv Enterprises Pvt. Ltd.
           </motion.h2>
           <motion.h1
             variants={textVariants}

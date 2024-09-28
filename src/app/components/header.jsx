@@ -1,32 +1,18 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import MenuIcon from "@assets/menu-60.svg";
 
 const Header = () => {
   return (
-    <header className="bg-white container mx-auto p-4">
-      <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">
-          <Image src="/logo2.png" alt="SEPL Logo" width={150} height={50} />
-        </h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="#work">Area of Work</Link>
-            </li>
-            <li>
-              <Link href="#expertise">Expertise</Link>
-            </li>
-            <li>
-              <Link href="#contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+    <div className="py-5">
+      <div className="container">
+        <div className="flex justify-between items-center">
+          <Image src="/logo2.png" alt="SEPL Logo" width={120} height={40} />
+          <MenuIcon className="h-5 w-5" />
+        </div>
       </div>
-    </header>
+    </div>
   );
 };
 
