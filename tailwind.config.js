@@ -15,6 +15,11 @@ module.exports = {
         "gradient-hero": "linear-gradient(180deg, #0c0c1d, #111132)",
       },
       colors: {
+        "bookmark-purple": "#5267DF",
+        "bookmark-red": "#FA5959",
+        "bookmark-blue": "#242A45",
+        "bookmark-grey": "#9194A2",
+        "bookmark-white": "#f7f7f7",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

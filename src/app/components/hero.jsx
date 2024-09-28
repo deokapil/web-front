@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const textVariants = {
   initial: {
@@ -40,28 +41,30 @@ const sliderVariants = {
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-hero bg-cover bg-top bg-no-repeat h-screen-minus-100 container">
-      <div className="h-[100%] flex flex-dir-col justify-center items-center gap-10 w-[50%]">
-        <motion.div initial="initial" animate="animate" variants={textVariants}>
+   <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_66%)]">
+    <div className="container">
+      <div className="md:flex items-center">
+      <div className="md:w-[578px]">
+      <motion.div initial="initial" animate="animate" variants={textVariants}>
           <motion.h2
             variants={textVariants}
-            className="text-4xl font-bold text-purple-400 mb-8"
+            className="text-5xl font-bold mb-8 tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6"
           >
-            Welcome to Sabhiv Enterprises Pvt. Ltd.
+            Welcome to Sabhiv Enterprises Pvt. Ltd. (SEPL)
           </motion.h2>
           <motion.h1
             variants={textVariants}
-            className="text-5xl font-bold mb-8 text-white"
+            className="text-3xl text-[#010D3E] font-bold mt-6 tracking-tight"
           >
             Delivering Strategic Consulting <br />
             for Tomorrow’s Leaders
           </motion.h1>
-          <motion.div variants={textVariants}>
-            <motion.div variants={textVariants} className="inline-block mr-4">
-              <Button variants="ghost">See the Latest Works </Button>
+          <motion.div variants={textVariants} className="flex gap-1 items-center mt-8">
+            <motion.div variants={textVariants} className="mr-4">
+              <Button variant="ghost">See the Latest Works </Button>
             </motion.div>
-            <motion.div variants={textVariants} className="inline-block">
-              <Button variants="outline"> Contact Me </Button>
+            <motion.div variants={textVariants} className="mr-2">
+              <Button variant="outline"> Contact Us </Button>
             </motion.div>
           </motion.div>
           <motion.img
@@ -69,10 +72,17 @@ export default function Hero() {
             animate="scrollButton"
             src="/scroll.png"
             alt=""
+            className="my-4 text-black"
+
           />
           <motion.p className="text-lg"></motion.p>
         </motion.div>
-      </div>
-    </section>
+        </div>
+        <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
+          <Image src="/hero-4.png" width={800} height={600} className="md:absolute md:h-full md:w-auto md:max-w-none" /> 
+        </div>
+        </div>
+    </div>
+   </section> 
   );
 }
