@@ -57,4 +57,35 @@ export const menuItems = [
       },
     ],
   },
+  {
+    title: "Solutioning",
+    subMenu: [
+      { title: "Public Procurement Toolkit", href: "#" },
+      { title: "IT-Integration", href: "#" },
+      { title: "Digital Transformation", href: "#" },
+      { title: "Besopke Development", href: "#" },
+      { title: "Cloud Hosting", href: "#" },
+      { title: "Displays", href: "#" },
+    ],
+  },
+
+  {
+    title: "Resources",
+    subMenu: [
+      { title: "White Papers", href: "#" },
+      { title: "Case Studies", href: "#" },
+      { title: "Articles", href: "#" },
+      { title: "Blog", href: "#" },
+    ],
+  },
+  { title: "Careers", subMenu: [{ title: "Open Positions", href: "#" }] },
+  {
+    title: "People",
+    subMenu: [
+      { title: "Advisors", href: "#" },
+      { title: "Independent Directors", href: "#" },
+      { title: "Directors", href: "#" },
+      { title: "Leadership Team", href: "#" },
+    ],
+  },
 ];

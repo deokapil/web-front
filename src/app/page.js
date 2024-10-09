@@ -14,7 +14,6 @@ export default function Home() {
         <Hero2 />
         <AreaOfWork />
         <Expertise />
-        <ContactForm />
       </main>
       <Footer />
     </div>
