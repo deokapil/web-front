@@ -14,3 +14,47 @@ export const features = [
     orientation: "right",
   },
 ];
+
+export const menuItems = [
+  {
+    title: "Advisory",
+    subMenu: [
+      {
+        title: "Public Policy",
+        href: "#",
+      },
+      {
+        title: "Technology",
+        href: "#",
+      },
+      {
+        title: "Management Consulting",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "Products",
+    subMenu: [
+      {
+        title: "Public Procurement Toolkit",
+        href: "#",
+      },
+      {
+        title: "SAAR-AIML",
+        href: "#",
+      },
+      {
+        title: "OSInt",
+        href: "#",
+      },
+      {
+        title: "Survillance",
+        href: "#",
+      },
+      {
+        title: "SABHIV",
+      },
+    ],
+  },
+];

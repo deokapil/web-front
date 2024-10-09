@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-hero": "linear-gradient(180deg, #0c0c1d, #111132)",
+        "gradient-h": "linear-gradient(180deg, #151927, #161d30)",
       },
       colors: {
         "bookmark-purple": "#5267DF",
