@@ -40,10 +40,10 @@ const sliderVariants = {
 };
 const Hero2 = () => {
   return (
-    <section className="pt-8 md:pt-5 pb-10 bg-[url('/bg-5.png')] bg-cover">
+    <section className="pt-8 md:pt-5 pb-10">
       <div className="container">
-        <div className="md:flex items-center">
-          <div className="md:w-[578px] py-32">
+        <div className="md:flex items-center justify-center">
+          <div className="mx-auto max-w-[780px] text-center py-32">
             <motion.div
               initial="initial"
               animate="animate"
@@ -51,9 +51,10 @@ const Hero2 = () => {
             >
               <motion.h2
                 variants={textVariants}
-                className="text-5xl font-bold mb-8 tracking-tighter bg-gradient-to-b from-white to-[#00E1E2] text-transparent bg-clip-text mt-6 "
+                className="text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2] mb-8 tracking-tighter bg-gradient-to-b from-white to-[#00E1E2] text-transparent bg-clip-text mt-6 "
               >
-                Welcome to Sabhiv Enterprises Pvt. Ltd. (SEPL)
+                Welcome to <br />
+                Sabhiv Enterprises Pvt. Ltd. (SEPL)
               </motion.h2>
               <motion.h1
                 variants={textVariants}
