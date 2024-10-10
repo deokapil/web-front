@@ -97,3 +97,9 @@ body {
 .container {
   @apply mx-auto px-4 sm:px-6 lg:px-8;
 }
+
+@layer components{
+  .logo-ticker-image{
+    @apply w-auto h-16;
+  }
+}

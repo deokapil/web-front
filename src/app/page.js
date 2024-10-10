@@ -8,6 +8,8 @@ import Hero2 from "./components/hero2";
 import Services from "./components/services";
 import Works from "./components/works";
 import Recent from "./components/recent";
+import Partners from "./components/partners";
+import LogoTicker from "./components/logo-ticker";
 
 export default function Home() {
   return (
@@ -16,11 +18,13 @@ export default function Home() {
         <Header light />
         <Hero2 />
       </div>
+      <LogoTicker />
       <Services />
       <Works />
       {/* <AreaOfWork /> */}
       <Recent />
       <Expertise />
+      <Partners />
       <Footer />
     </div>
   );

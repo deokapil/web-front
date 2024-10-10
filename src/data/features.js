@@ -89,3 +89,16 @@ export const menuItems = [
     ],
   },
 ];
+
+export const clientImages = [
+  "/clients/becil.png",
+  "/clients/ccs.jpg",
+  "/clients/cdac.jpeg",
+  "/clients/dell-tech.png",
+  "/clients/innefu1.png",
+  "/clients/lg-logo.png",
+  "/clients/Qline_Biotech_Logo.png",
+  "/clients/sig-yuple.png",
+  "/clients/uppint.png",
+  "/clients/Voyager-labs-logo-rgb.svg",
+];
